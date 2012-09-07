@@ -5,6 +5,10 @@ Monitor modifications to a LaTeX file and re-render - real-time view of your cha
 
 A hasty little hack that makes my life easier, maybe you'll find it useful...
 
+### Install
+Download the script and put it somewhere on your path. I keep mine in ~/bin
+Now install the [listen gem](http://rubygems.org/gems/listen) by running ```gem install listen```.
+
 ### Usage
 Just put ```refresh_latex.rb``` somewhere in your path and pass it the LaTeX file you'd like to use. That's it!
 
@@ -18,6 +22,7 @@ This script only supports OS X right now, but that's okay, since it'd be very ve
 
 ### Dependencies
 Since OS X doesn't have inotify, I used the handy [listen gem](http://rubygems.org/gems/listen)
+Be sure you're running at least Ruby 1.9 since 1.8 doesn't support some of the nifty things I used.
 
 ### License
 Do as you please, but don't be a dick about it! I'd love to hear everyone's thoughts and will gladly accept pull requests :)
