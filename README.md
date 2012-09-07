@@ -19,7 +19,7 @@ Any additional arguments are passed directly to the `pdflatex` command, so you c
 
 Look at this cool screenshot of it in action! So cool!
 
-[screenshot](screenshot.png)
+![screenshot](https://raw.github.com/eric-wood/LaTeX-Refresh/master/screenshot.png)
 
 ### Notes
 Right now it's wired up to support [Skim.app](http://skim-app.sourceforge.net/) - in order for you to get it to work you'll need to modify the `pdf_viewer` variable defined at the top of the file.
