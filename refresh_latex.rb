@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 #==========================================================================
-# refresh_latex
-# hastily thrown together by Eric Wood (http://ericwood.org)
+# refresh_latex.rb
+#   Hastily thrown together by Eric Wood (http://ericwood.org)
 #==========================================================================
 # Automagically re-render LaTeX files and open the result in a PDF reader.
 # Using Skim we can do all of this without losing focus to the editor,
@@ -14,6 +14,8 @@
 # NOTE: requires the "listen" ruby gem
 # Install it with the following command:
 # gem install listen
+#
+# See README.md for more information on installation
 #==========================================================================
 
 require 'listen'
@@ -24,7 +26,7 @@ if ARGV.size == 0
 end
 
 # Path to the PDF viewer you want to use!
-pdf_viewer = '/Users/eric/Applications/Skim.app'
+pdf_viewer = File.join(Dir.home, 'Applications/Skim.app')
 
 # Input argument is the path to the tex file
 filename = File.absolute_path(ARGV[0])
