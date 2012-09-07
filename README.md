@@ -17,9 +17,10 @@ Just put `refresh_latex.rb` somewhere in your path and pass it the LaTeX file yo
 
 Any additional arguments are passed directly to the `pdflatex` command, so you can do any fancy shenanigans you want.
 
-Look at this cool screenshot of it in action! So cool!
-
-![screenshot](https://raw.github.com/eric-wood/LaTeX-Refresh/master/screenshot.png)
+<p align="center">
+  <img src="https://raw.github.com/eric-wood/LaTeX-Refresh/master/screenshot.png">
+</p>
+<p align="center"><i>A typical workflow using `refresh_latex.rb`</i></p>
 
 ### Notes
 Right now it's wired up to support [Skim.app](http://skim-app.sourceforge.net/) - in order for you to get it to work you'll need to modify the `pdf_viewer` variable defined at the top of the file.
