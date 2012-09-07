@@ -20,7 +20,7 @@ Any additional arguments are passed directly to the `pdflatex` command, so you c
 <p align="center">
   <img src="https://raw.github.com/eric-wood/LaTeX-Refresh/master/screenshot.png">
 </p>
-<p align="center"><i>A typical workflow using `refresh_latex.rb`</i></p>
+<p align="center"><i>A typical workflow using LaTeX-Refresh</i></p>
 
 ### Notes
 Right now it's wired up to support [Skim.app](http://skim-app.sourceforge.net/) - in order for you to get it to work you'll need to modify the `pdf_viewer` variable defined at the top of the file.
